@@ -2,6 +2,9 @@
 layout: default
 ---
 
+Liquid division test: 19 / 5 = {{ 19 | divide_by: 5 }}<br>
+Liquid modulo test: 19 % 5 = {{ 19 | modulo: 5 }}
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
